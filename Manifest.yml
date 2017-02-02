@@ -1,0 +1,6 @@
+---
+applications:
+- name: app
+  memory: 64m
+  path: build/
+  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack.git
